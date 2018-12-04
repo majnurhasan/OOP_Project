@@ -1,23 +1,8 @@
 # OOP_Project
 Transaction Project
 
-Sample Runthrough .:
+· The application will be used by the store attendant in recording transactions.
 
-Input:
-First Name: JUaN
-Middle Initial: S
-Last Name: DelA cRuz
-Birthdate: 12/1/2000
-Address: Davao City
-Jewelry: Necklace
-Number of Items: 1
-Due Date: 06/28/2019
+· A transaction includes inputting the customer’s first name, middle initial, last name, birthdate, address, the product and the number of items purchased, and the date when the customer promises to clear all the payments.
 
-Output:
-Customer: Juan S. Dela Cruz
-Birthdate: 12/1/2000
-Address: Davao City
-Jewelry purchased: Necklace
-Number of items purchased: 1
-Interest per Month: 65 pesos
-Accrued Amount on Due Date: 5455 pesos
+· After the encoding process, the console application should then display the following details: Customer’s full name, birthdate, address, the product and number of items purchased by the customer, the interest of the product purchased, the accrued amount on the promised date, and the number of items left for the type of jewelry bought by the customer.
