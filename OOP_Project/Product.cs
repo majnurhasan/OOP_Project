@@ -32,7 +32,7 @@ namespace ExerciseNine
         {
             Items = Items - items;
         }
-        public ObservableCollection<double> listofgrade = new ObservableCollection<double>();
+        
         
     }
 }

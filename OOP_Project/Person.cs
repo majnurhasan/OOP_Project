@@ -15,7 +15,6 @@ namespace ExerciseNine
         public string BirthDate;
         public string Address;
         
-
         public Person(string firstName, string lastName, string birthDate, string address, string middleName = "")
         {
             FirstName = firstName;

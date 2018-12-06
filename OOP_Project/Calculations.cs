@@ -27,8 +27,6 @@ namespace ExerciseNine
             return principalAmount * (monthlyRate / 100);
         }
 
-
-
         public double CalculateAccruedAmount(string endDate, double principalAmount, double monthlyRate)
         {
             int numberOfMonths;
@@ -41,6 +39,21 @@ namespace ExerciseNine
             double i = CalculateInterest(principalAmount, monthlyRate);
 
             return principalAmount + (i * numberOfMonths);
+        }
+
+        public static double GetSalary(bool fullTime, double rate, Enum taxpayer)
+        {
+            //Access excel file somewhere from here to have reference in calculating the Salary
+            //Lots of different salary because it depends if you're full time or not, kinds of taxpayer and everything
+            if (fullTime)
+            {
+                //rate is fixed
+            }
+            else
+            {
+                //rate is in hours
+            }
+            return 0;
         }
 
     }
