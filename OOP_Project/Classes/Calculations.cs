@@ -43,8 +43,6 @@ namespace ExerciseNine
 
         public static double GetSalary(bool fullTime, double rate, Enum taxpayer)
         {
-            //Access excel file somewhere from here to have reference in calculating the Salary
-            //Lots of different salary because it depends if you're full time or not, kinds of taxpayer and everything
             if (fullTime)
             {
                 //rate is fixed
